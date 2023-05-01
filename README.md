@@ -1,11 +1,11 @@
-About r-waldo
-=============
+About r-waldo-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-waldo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/r-lib/waldo
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-waldo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Compare complex R objects and reveal the key differences.  Designed particularly for use in testing packages where being able to quickly isolate key differences makes understanding test failures much easier.
 
