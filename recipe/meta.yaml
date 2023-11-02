@@ -1,4 +1,4 @@
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/waldo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/waldo/waldo_{{ version }}.tar.gz
-  sha256: 45bf076cff449e3c506c95857734bb73fdf30040333709b8845d09a12c6fdf46
+  sha256: 82cdae1ab2c5e7e5dbf5c6bdf832020b46e152732053fb45de7c9a81afdf2e05
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
