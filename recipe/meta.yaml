@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/waldo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/waldo/waldo_{{ version }}.tar.gz
-  sha256: 3b4da128dad765298fd4144e517ba2a84a8d3f9cba4e486a34dab686d4e620e1
+  sha256: c9c3f3732a2fe7008735c8bff7b0139489132a5a8b1b8df96768fbe9dd1e76c9
 
 build:
   number: 0
